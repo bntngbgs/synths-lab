@@ -23,3 +23,16 @@ body {
 .pattern-background {
   @apply absolute top-0 h-[600px] md:h-[900px] left-0 right-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)];
 }
+
+.section-title {
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.section-title span {
+  background: var(--color-white-smoke);
+  padding: 0 30px;
+}

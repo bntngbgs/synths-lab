@@ -1,15 +1,16 @@
 import superSale from '../assets/sale.png';
 import freeShipping from '../assets/shipping.png';
 import fullyCrafted from '../assets/crafted-2.png';
+import startFrom from '../assets/start-from.png';
 
 const Promo = () => {
   return (
     <div className="container mx-auto mt-24 grid grid-cols-3 grid-rows-2 gap-4">
-      <div className="bg-[#efdfd8] h-48 rounded p-4 relative overflow-hidden">
+      <div className="bg-[#d3c7a2] h-48 rounded p-4 relative overflow-hidden">
         <h3 className="text-4xl font-heading font-bold text-white-smoke">
           Super Sale
         </h3>
-        <p className="text-white-smoke text-xl max-w-[22ch] mt-2 leading-6">
+        <p className="text-white-smoke text-lg max-w-[26ch] mt-2 leading-6">
           Don&apos;t miss out on the chance to have great deals on your favorite
           items.
         </p>
@@ -23,8 +24,9 @@ const Promo = () => {
         <h3 className="text-4xl font-heading font-bold text-white-smoke">
           Fully Crafted
         </h3>
-        <p className="text-white-smoke text-xl max-w-[22ch] mt-2 leading-6">
-          Craftsmen pay attention to every small detail, ensuring high quality.
+        <p className="text-white-smoke text-lg max-w-[26ch] mt-2 leading-6">
+          Craftsmen pay attention to every small detail, ensuring high quality
+          products.
         </p>
         <img
           src={fullyCrafted}
@@ -37,7 +39,7 @@ const Promo = () => {
         <h3 className="text-4xl font-heading font-bold text-white-smoke">
           Free Shipping
         </h3>
-        <p>
+        <p className="text-white-smoke text-lg max-w-[38ch] mt-2 leading-6">
           Enjoy free shipping when you spend $50 or more. It&apos;s a great
           opportunity to stock up on essentials or try something new.
         </p>
@@ -47,10 +49,19 @@ const Promo = () => {
           className="w-[360px] absolute bottom-0 left-1/2 transform -translate-x-1/2"
         />
       </div>
-      <div className="bg-[#e7d7ca] h-48 col-span-2 p-4 rounded">
+      <div className="bg-[#e7d7ca] h-48 col-span-2 p-4 rounded relative overflow-hidden">
         <h3 className="text-4xl font-heading font-bold text-white-smoke">
           Start from 99K
         </h3>
+        <p className="text-white-smoke text-lg max-w-[46ch] mt-2 leading-6">
+          Our product starts at just 99K. This makes it accessible for a wide
+          range of customers looking for quality without breaking the bank.
+        </p>
+        <img
+          src={startFrom}
+          alt="super sale"
+          className="w-[320px] absolute bottom-1 right-8"
+        />
       </div>
     </div>
   );

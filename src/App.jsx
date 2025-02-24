@@ -2,6 +2,7 @@ import Header from './sections/Header';
 import Hero from './sections/Hero';
 import Products from './sections/Products';
 import Promo from './sections/Promo';
+import Testimonials from './sections/Testimonials';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero />
       <Promo />
       <Products />
+      <Testimonials />
     </>
   );
 };
