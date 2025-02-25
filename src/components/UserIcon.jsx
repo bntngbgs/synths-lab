@@ -1,4 +1,4 @@
-import userPict from '../assets/user.jpg';
+import userPict from '../assets/images/user.jpg';
 import { BiSolidChevronDown } from 'react-icons/bi';
 
 const UserIcon = () => {

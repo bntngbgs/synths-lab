@@ -1,11 +1,11 @@
-import superSale from '../assets/sale.png';
-import freeShipping from '../assets/shipping.png';
-import fullyCrafted from '../assets/crafted-2.png';
-import startFrom from '../assets/start-from.png';
+import superSale from '../assets/images/sale.png';
+import freeShipping from '../assets/images/shipping.png';
+import fullyCrafted from '../assets/images/crafted-2.png';
+import startFrom from '../assets/images/start-from.png';
 
 const Promo = () => {
   return (
-    <div className="container mx-auto mt-24 grid grid-cols-3 grid-rows-2 gap-4">
+    <div className="container mx-auto mt-32 grid grid-cols-3 grid-rows-2 gap-4">
       <div className="bg-[#d3c7a2] h-48 rounded p-4 relative overflow-hidden">
         <h3 className="text-4xl font-heading font-bold text-white-smoke">
           Super Sale

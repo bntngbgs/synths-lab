@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Mary Johnson",
+    "text": "Synths Lab offers a wide range of affordable and durable beauty products meticulously crafted with the best customer service. I couldn't be happier with my purchases from them.",
+    "rating": 4.8,
+    "image": "./src/assets/images/testimonials-user-1.jpg"
+  },
+  {
+    "name": "Lily Parker",
+    "text": "I am beyond impressed with Synths Lab's exceptional beauty products. The quality is unmatched and the best price you can find. I highly recommend them for anyone looking for top-notch beauty essentials.",
+    "rating": 4.2,
+    "image": "./src/assets/images/testimonials-user-2.jpg"
+  },
+  {
+    "name": "Ava Johnson",
+    "text": "I absolutely love the beauty products from Synths Lab! The quality is top-notch, and the free shipping is a fantastic bonus. I highly recommend trying out their products.",
+    "rating": 4.5,
+    "image": "./src/assets/images/testimonials-user-3.jpg"
+  },
+  {
+    "name": "Sophia Reynolds",
+    "text": "I am blown away by the quality of beauty products offered by Synths Lab. Their range of skincare items is unmatched, and I love that they often discount their products, making it affordable for everyone. I highly recommend Synths Lab for anyone looking to elevate their beauty routine!.",
+    "rating": 4.8,
+    "image": "./src/assets/images/testimonials-user-4.jpg"
+  },
+  {
+    "name": "Samantha Jones",
+    "text": "Synths Lab offers fashion that is perfectly crafted to elevate your style. From elegant dresses to stylish accessories, they have everything you need to stand out from the crowd.",
+    "rating": 4.7,
+    "image": "./src/assets/images/testimonials-user-5.jpg"
+  },
+  {
+    "name": "Emily Richards",
+    "text": "I am extremely pleased with the fashion options offered by Synths Lab. Not only do they have great deals, but their free delivery service is a huge bonus. I've never been disappointed with my purchases here!.",
+    "rating": 4.5,
+    "image": "./src/assets/images/testimonials-user-6.jpg"
+  }
+]

@@ -22,13 +22,13 @@ const Products = () => {
   // }, []);
 
   return (
-    <div className="container mt-24 mx-auto">
+    <div className="container mt-28 mx-auto">
       <h1 className="section-title text-4xl font-heading font-bold text-center tracking-wide">
         <span>OUR PRODUCTS</span>
       </h1>
       <div className="flex flex-wrap justify-between gap-8 mt-14">
-        {Array.from(Array(8).keys()).map((item) => (
-          <ProductCard />
+        {Array.from(Array(8).keys()).map((_, index) => (
+          <ProductCard key={index} />
         ))}
       </div>
     </div>

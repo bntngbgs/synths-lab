@@ -1,3 +1,4 @@
+import Footer from './sections/Footer';
 import Header from './sections/Header';
 import Hero from './sections/Hero';
 import Products from './sections/Products';
@@ -13,6 +14,7 @@ const App = () => {
       <Promo />
       <Products />
       <Testimonials />
+      <Footer />
     </>
   );
 };

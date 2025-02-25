@@ -1,4 +1,4 @@
-import heroImage from '../assets/test-bg-2.jpg';
+import heroImage from '../assets/images/test-bg-2.jpg';
 import { MdOutlineArrowOutward } from 'react-icons/md';
 
 const Hero = () => {
@@ -19,7 +19,7 @@ const Hero = () => {
       <img
         src={heroImage}
         alt="hero image"
-        className="w-full h-[380px] md:h-[540px] object-cover md:object-center mt-12 md:mt-24"
+        className="w-full h-[380px] md:h-[640px] object-cover md:object-center mt-12 md:mt-24"
       />
     </div>
   );
