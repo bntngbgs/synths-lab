@@ -1,14 +1,14 @@
 import { ImQuotesLeft } from 'react-icons/im';
 import { FaStar } from 'react-icons/fa';
 
-const TestimonialsCard = ({ name, text, image, rating }) => {
+const TestimonialsCard = ({ name, text, imageSrc, rating }) => {
   return (
     <div className="bg-white py-4 px-7 rounded">
       <ImQuotesLeft size={38} color={'#cfcfc4'} />
       <p className="mt-4 text-gray-500">{text}</p>
-      <div className="flex items-center gap-4 mt-6">
+      <div className="flex items-center gap-4 mt-4">
         <img
-          src={`${image}`}
+          src={imageSrc}
           alt="user image"
           className="max-w-14 sm:max-w-20 rounded-full"
         />

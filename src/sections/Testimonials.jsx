@@ -1,8 +1,19 @@
 import testimonialsData from '../assets/json/testimonials.json';
 import TestimonialsCard from '../components/TestimonialsCard';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+const gallery = Object.values(
+  import.meta.glob(
+    '../assets/images/testimonials-user-*.{png,jpg,jpeg,PNG,JPEG}',
+    {
+      eager: true,
+      as: 'url',
+    }
+  )
+);
 
 const Testimonials = () => {
+  console.log(gallery);
+
   return (
     <div className="container mt-32 mx-auto">
       <h1 className="section-title text-2xl sm:text-3xl md:text-4xl font-heading font-bold text-center tracking-wide">
@@ -17,7 +28,11 @@ const Testimonials = () => {
         </div>
         <div className="mt-16 overflow-hidden grid grid-flow-col testimonials-grid">
           {Array.from(Array(3).keys()).map((item, index) => (
-            <TestimonialsCard key={index} {...testimonialsData[index]} />
+            <TestimonialsCard
+              key={index}
+              {...testimonialsData[index]}
+              imageSrc={gallery[index]}
+            />
           ))}
         </div>
         <div className="bg-white p-2 w-max rounded shadow-lg absolute right-0 top-1/2 transform -translate-y-1/2 border-2 border-[#cfcfc4]">

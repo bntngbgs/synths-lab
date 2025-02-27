@@ -3,7 +3,7 @@
     "name": "Mary Johnson",
     "text": "Synths Lab offers a wide range of affordable and durable beauty products meticulously crafted with the best customer service. I couldn't be happier with my purchases from them.",
     "rating": 4.8,
-    "image": "./src/assets/images/testimonials-user-1.jpg"
+    "image": "testimonials-user-1.jpg"
   },
   {
     "name": "Lily Parker",
